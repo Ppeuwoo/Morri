@@ -17,7 +17,7 @@
     font-weight: 600;
     font-size: 12px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display: block;
     color: #A8A8A8;
 }
@@ -56,7 +56,6 @@
 }
 
 .bestM .best-title .bt-tit {
-    color: #000000;
     font-size: 22px;
     line-height: 20px;
     font-weight: 600;
@@ -64,13 +63,49 @@
 }
 
 .bestM .best-title .bt-desc {
-    color: #818181;
     font-size: 22px;
     line-height: 20px;
-    font-weight: 100;
+    font-weight: 300;
+    color: #818181;
     margin-bottom: 10px;
 }
 
+/* recentM */
+.recentM {
+    padding-top: 10px 0;
+    margin-top: 19px;
+    overflow: hidden;
+}
+
+.recentM .recent {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+
+.recentM .recent:last-child {margin-right: 0;}
+
+.recentM h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+    padding-top: 21px;
+    border-top: 1px solid #ebebeb
+}
+
+.recentM .recent-title .rt-stit {
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.recentM .recent-title .rt-tit {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #908F94;
+}
 
 
 /* mideaquery */
