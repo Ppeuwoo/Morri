@@ -83,7 +83,9 @@
     margin-right: 2%;
 }
 
-.recentM .recent:last-child {margin-right: 0;}
+.recentM .recent:last-child {
+    margin-right: 0;
+}
 
 .recentM h2 {
     font-weight: bold;
@@ -107,6 +109,64 @@
     color: #908F94;
 }
 
+/* nextM */
+.nextM {}
+
+.nextM h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+    padding-top: 21px;
+    border-top: 1px solid #ebebeb
+}
+
+.nextM .next {
+    display: flex;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.nextM .next::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    width: calc(100% - 105px);
+    height: 1px;
+    background: #ebebeb;
+}
+
+.nextM .next .next-img {
+    width: 102px;
+    margin-right: 11px;
+}
+
+.nextM .next .next-tit {display: flex;flex-direction: column; justify-content: center;}
+
+.nextM .next .next-tit .nt-stit {
+    font-size: 12px;
+    line-height: 20px;
+    color: #DA5E7C;
+}
+
+.nextM .next .next-tit .nt-tit {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nextM .next .next-tit .nt-desc {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #A1A1A3;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* 두 줄만 나오게하는 태그 */
+    -webkit-box-orient: vertical;
+}
 
 /* mideaquery */
 @media (max-width: 1020px) {
